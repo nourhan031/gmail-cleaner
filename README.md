@@ -56,9 +56,3 @@ A Python script that cleans up your Gmail inbox by automatically deleting emails
 
 3. **Confirm deletion:**
     - The script will ask for your confirmation before deleting the emails.
-
-
-## Acknowledgments
-
-- [Google APIs Client Library for Python](https://github.com/googleapis/google-api-python-client)
-- [OAuth 2.0 Client](https://github.com/googleapis/oauth2client)
