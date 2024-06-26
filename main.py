@@ -107,7 +107,7 @@ def get_user_confirmation():
     return input("Are you sure you want to delete old emails? (yes/no): ").strip().lower() == 'yes'
 
 
-target_user_email = 'nonobody2002@gmail.com'
+target_user_email = 'target@gmail.com'
 query_string = "in:inbox"
 # get a list of email results matching the query
 emails_to_delete = search(target_user_email, query_string)
