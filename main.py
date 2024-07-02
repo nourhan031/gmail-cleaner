@@ -40,12 +40,12 @@ def create_service(client_file, api_name, api_version, scopes):
 gmail_service = create_service(CLIENT_FILE, API_NAME, API_VERSION, SCOPES)
 
 
-# return the date one year ago from the current date in the specified format
+# return the date one year ago from the current date 
 def one_year_ago():
     return (datetime.now() - timedelta(days=365)).strftime('%Y/%m/%d')
 
 
-# search for emails matching a given query
+# search for emails matching the given query
 def search(user_id, query, labels=None):
     # init an empty list for storing email msgs and a var for the next page token
     email_messages = []
