@@ -10,7 +10,6 @@ A Python script that cleans up your Gmail inbox by automatically deleting emails
 
 ## Prerequisites
 
-- Python 3.6 or higher
 - Gmail API credentials 
 
 ## Installation
