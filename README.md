@@ -24,8 +24,8 @@ A Python script that cleans up your Gmail inbox by automatically deleting emails
 2. **Create and activate a virtual environment (optional but recommended):**
 
     ```sh
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    python -m venv venv
+    venv\Scripts\activate
     ```
 
 3. **Install the required packages:**
