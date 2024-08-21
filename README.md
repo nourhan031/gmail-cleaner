@@ -1,6 +1,6 @@
 # Gmail Cleaner
 
-A Python script that cleans up Gmail inbox by automatically deleting emails that are older than a year.
+A Python script that cleans up Gmail inbox by automatically deleting emails older than a year.
 
 ## Features
 
